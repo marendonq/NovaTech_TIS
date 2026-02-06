@@ -1,0 +1,83 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual Environment
+# ===============================
+venv/
+.env/
+.env.*
+.venv/
+
+# ===============================
+# Django
+# ===============================
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Migraciones compiladas (opcional)
+**/migrations/*.pyc
+
+# ===============================
+# Static & Media (producción)
+# ===============================
+staticfiles/
+media/
+
+# ===============================
+# Secrets
+# ===============================
+.env
+.env.local
+.env.production
+.env.dev
+
+# ===============================
+# IDEs & Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Tests / Coverage
+# ===============================
+htmlcov/
+.coverage
+.pytest_cache/
+
+# ===============================
+# Build / Packaging
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Node (por si luego agregas frontend)
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Django cache / sessions
+# ===============================
+*.sqlite3
+.cache/
