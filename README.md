@@ -21,11 +21,11 @@ NutriDash no es solo otra plataforma de delivery; es tu aliado integral para una
 ## Estructura del Proyecto
 NutriDash sigue los principios SOLID y un patrón de Monolito Modular para asegurar una separación clara de responsabilidades:
 
-+ apps.users: Biometría, cálculo de TMB (Tasa Metabólica Basal) y gestión de perfiles.
-+ apps.catalogue: Menús de restaurantes, listas de ingredientes y datos de macronutrientes.
-+ apps.logistics: Geocodificación basada en OSM, cálculo de distancias y despacho de repartidores.
-+ apps.tracker: Registro de ingesta diaria y análisis histórico de salud.
-+ apps.planner: Motor algorítmico de sugerencias de comidas.
++ ```apps.users```: Biometría, cálculo de TMB (Tasa Metabólica Basal) y gestión de perfiles.
++ ```apps.catalogue```: Menús de restaurantes, listas de ingredientes y datos de macronutrientes.
++ ```apps.logistics```: Geocodificación basada en OSM, cálculo de distancias y despacho de repartidores.
++ ```apps.tracker```: Registro de ingesta diaria y análisis histórico de salud.
++ ```apps.planner```: Motor algorítmico de sugerencias de comidas.
 
 ### Instalación y Configuración
 Requisitos Previos:
@@ -36,25 +36,26 @@ Requisitos Previos:
 
 Clonar el repositorio:
 
-  Bash
+  ```Bash
   git clone https://github.com/marendonq/NovaTech_TIS/
   cd nutridash
+```
   Configurar el entorno virtual:
 
-  Bash
+  ```Bash
   python -m venv venv
   source venv/bin/activate  # En Windows: venv\Scripts\activate
   pip install -r requirements.txt
   Variables de Entorno:
   Crea un archivo .env en la raíz y añade tus credenciales (DB, API Keys, Secret Key).
-
+```
 ## Migraciones y Servidor:
 
-  Bash
+  ```Bash
   python manage.py migrate
   python manage.py runserver
   Estructura del Proyecto (Estructura de Apps)
-
+```
 ## Estándares de Calidad
 Para mantener un código limpio y profesional, todas las contribuciones deben cumplir con:
 
