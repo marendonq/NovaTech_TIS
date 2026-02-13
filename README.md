@@ -37,7 +37,7 @@ Requisitos Previos:
 Clonar el repositorio:
 
   Bash
-  git clone https://github.com/tu-usuario/nutridash.git
+  git clone https://github.com/marendonq/NovaTech_TIS/
   cd nutridash
   Configurar el entorno virtual:
 
