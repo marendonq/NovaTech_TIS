@@ -1,5 +1,5 @@
-# NutriDash: Healthy Delivery & Meal Intelligence
-NutriDash no es solo otra plataforma de delivery; es tu aliado integral para una alimentación consciente. Construida con Django, esta plataforma transforma el "takeout" tradicional en una experiencia nutricional personalizada, integrando seguimiento calórico y planificación de comidas en un solo ecosistema.
+# DeliQ: Healthy Delivery & Meal Intelligence
+DeliQ no es solo otra plataforma de delivery; es tu aliado integral para una alimentación consciente. Construida con Django, esta plataforma transforma el "takeout" tradicional en una experiencia nutricional personalizada, integrando seguimiento calórico y planificación de comidas en un solo ecosistema.
 
 ## Características Principales
 +  Healthy Marketplace: Filtros avanzados por macros, alérgenos y tipos de dieta (Keto, Vegana, Paleo, etc.).
@@ -19,7 +19,7 @@ NutriDash no es solo otra plataforma de delivery; es tu aliado integral para una
 + Maps API:	OSM Platform (PostGIS + OSRM + MapLibre GL JS)
 
 ## Estructura del Proyecto
-NutriDash sigue los principios SOLID y un patrón de Monolito Modular para asegurar una separación clara de responsabilidades:
+DeliQ sigue los principios SOLID y un patrón de Monolito Modular para asegurar una separación clara de responsabilidades:
 
 + ```apps.users```: Biometría, cálculo de TMB (Tasa Metabólica Basal) y gestión de perfiles.
 + ```apps.catalogue```: Menús de restaurantes, listas de ingredientes y datos de macronutrientes.
@@ -38,7 +38,7 @@ Clonar el repositorio:
 
   ```Bash
   git clone https://github.com/marendonq/NovaTech_TIS/
-  cd nutridash
+  cd DeliQ
 ```
   Configurar el entorno virtual:
 
