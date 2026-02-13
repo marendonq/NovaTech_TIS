@@ -1,4 +1,30 @@
-asgiref==3.11.1
-Django==5.2.11
-sqlparse==0.5.5
-tzdata==2025.3
+# Core Framework
+django==5.0.2
+django-environ==0.11.2        # Gestión de variables de entorno (.env)
+psycopg2-binary==2.9.9         # Driver para PostgreSQL
+
+# GIS & Mapping (OpenStreetMap Stack)
+django-leaflet==0.29.0         # Integración de mapas OpenSource en el admin/frontend
+geopy==2.4.1                   # Utilidades para cálculos geoespaciales y Nominatim
+django-geojson==4.0.1          # Serialización de datos geográficos
+
+# API & Serialización
+djangorestframework==3.14.0
+djangorestframework-gis==1.1.0 # Soporte GeoJSON para DRF
+django-cors-headers==4.3.1
+
+# Nutrición y Datos (Open Food Facts)
+requests==2.31.0               # Para consumo de la API de Open Food Facts
+pydantic==2.6.1                # Validación de esquemas de datos nutricionales
+
+# Tareas Asíncronas y Performance
+celery==5.3.6                  # Procesamiento de pedidos y cálculos en background
+redis==5.0.1                   # Broker para Celery y sistema de caché
+flower==2.0.1                  # Monitoreo de tareas de Celery
+
+# Calidad de Código y Testing (Development)
+pytest-django==4.8.0
+pytest-cov==4.1.0              # Reportes de cobertura de tests
+black==24.2.0                  # Formateador de código
+flake8==7.0.0                  # Linter de estilo
+mypy==1.8.0                    # Verificación de tipos estáticos
