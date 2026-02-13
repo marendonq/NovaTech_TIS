@@ -62,3 +62,5 @@ Para mantener un código limpio y profesional, todas las contribuciones deben cu
 + Linting: Formateo mediante flake8 y black.
 + Verificación de Tipos: Análisis estático con mypy.
 + Pruebas: Cobertura mínima del 85% mediante pytest.
+
+<img width="1685" height="727" alt="class-diagram-DeliQ" src="https://github.com/user-attachments/assets/aae2dee9-d604-413d-a9c6-1bab312c3549" />
